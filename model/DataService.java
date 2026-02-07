@@ -47,7 +47,7 @@ public class DataService {
         return "ส่งรายงานสำเร็จ!";
     }
 
-    // สำหรับ Checker เลือกฟันธงตรงๆ โดยไม่สนคะแนนเดิม
+    // สำหรับ Checker เลือกฟันธงตรงๆ
     public void updateVerification(String rumorId, boolean status, boolean isFakeDecision) {
         Rumor r = findRumor(rumorId);
         if (r != null) {

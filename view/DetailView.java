@@ -29,7 +29,7 @@ public class DetailView extends JFrame {
 
         pnl.add(new JSeparator());
 
-        // --- ส่วนผู้ตรวจสอบ (Checker) ---
+        // ส่วนผู้ตรวจสอบ (Checker)
         pnl.add(new JLabel("ส่วนของผู้ตรวจสอบ: เลือกผลที่ต้องการ") {{ setFont(boldFont); }});
         checkResultCombo.setFont(thaiFont);
         btnVerify.setFont(thaiFont);
@@ -39,7 +39,7 @@ public class DetailView extends JFrame {
 
         pnl.add(new JSeparator());
 
-        // --- ส่วนผู้ใช้งาน (User) ---
+        // ส่วนผู้ใช้งาน (User)
         pnl.add(new JLabel("ส่วนของผู้ใช้งาน: รายงานข้อมูล") {{ setFont(boldFont); }});
         typeCombo.setFont(thaiFont); btnReport.setFont(thaiFont);
         JPanel uPnl = new JPanel(new FlowLayout(FlowLayout.LEFT));
